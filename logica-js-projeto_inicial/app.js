@@ -17,10 +17,11 @@ let naocadastrado= faça o cadastro;
 if (resposta === 'sim') {
     alert(cadastrado);
 } else{
-    alert(naocadastrado)
+    alert(naocadastrado);
 }*/
 
 //desafios logica em programação 
+
 
 //alert ('Boas vindas ao nosso site!');
 
@@ -34,9 +35,19 @@ let saldodisponivel = 1000;
 alert(mensagemdeerro);
 */
 
-let mensagemparabens = 'vc passou no teste, parabens!';
+/*let mensagemparabens = 'vc passou no teste, parabens!';
 alert(mensagemparabens);
 console.log(mensagemparabens);
+*/
 
+let nome = prompt('qual seu nome?');
+let idade = prompt('qual a sua idade?');
+
+if (idade >= 18) {
+    alert('pode tirar cnh');
+} else { 
+    alert('nao pode tiar cnh');
+
+}
 
  
