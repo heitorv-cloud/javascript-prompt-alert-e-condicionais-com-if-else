@@ -1,0 +1,51 @@
+/*alert('boas vindas ao jogo do mundo secreto');
+let numeroSecreto= 5;
+let chute = prompt('escolha um numero entre 1 a 10');
+
+if(chute == numeroSecreto) {
+    alert(`isso ai! vc descobriu o numero secreto ${numeroSecreto} `  );
+}  else {
+    alert('pena, vc errou!');
+}*/
+
+
+/*alert ('bem vindo ao site!');
+let diadasemana = prompt('qual o dia da semana?');
+
+if(diadasemana === 'sabado' || diadasemana === 'domingo') {
+    alert('finalmente, é dia de descanso!');
+} else if (diadasemana === 'segunda' || diadasemana === 'terca' || diadasemana === 'quarta' || diadasemana === 'quinta' || diadasemana === 'sexta') {
+    alert('boa semana!');
+} else {
+    alert('dia da semana inválido!');
+}*/
+
+/*alert('boas vindas ao jogo');
+let pontuação = 101;
+if (pontuação >= 100) {
+    alert('parabéns, vc é um jogador de elite!');
+} else if (pontuação > 100) {
+    alert('vc é um jogador iniciante, continue treinando!');
+}*/
+
+/*alert('bem vindo ao jogo de numeros!');
+let chute = prompt('digite um numero');
+    if (chute > 0) { 
+        alert('o numero é positivo');
+    } else if  (chute < 0) {
+        alert('o numero é negativo');
+    }*/
+
+// usando template string
+/*alert('entrou na conta do banco!');
+let saldo = 1000;
+ alert (`seu saldo é de R$ ${saldo} reais!`);*/
+
+ let nome = prompt('qual o seu nome?');
+ alert (`seja bem vindo ${nome}!`);
+
+ 
+
+
+
+ 
