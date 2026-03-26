@@ -1,0 +1,55 @@
+/*alert('boas vindas ao jogo do mundo secreto');
+let numeroSecreto= 5;
+console.log(numeroSecreto);
+let chute; //fica vazio porque agora so vai funcionar pra armazenar e o while pede o valor
+let tentativas = 1;*/
+
+
+
+//while enquanto o chute for diferente do numero secreto, o jogo continua
+/*while (chute != numeroSecreto)  {
+    chute = prompt ('escolha um numero entre 0 e 10');
+
+if(chute == numeroSecreto) {
+    alert(`isso ai! vc descobriu o numero secreto ${numeroSecreto} com ${tentativas} tentativas `);
+} else {
+    if(chute > numeroSecreto) {
+        alert(`o numero secreto é menor que ${chute}`);
+    } else {
+        alert(`o numero secreto é maior que ${chute}`);
+    }
+    tentativas++; 
+    
+}
+}*/
+
+/*let numero = 10;
+while (numero > 0) {
+    alert(numero);
+    numero--;
+}*/
+
+/*let numero = 1;
+while (numero <= 10) {
+    alert(numero);
+    numero++;
+}*/
+
+/*let numero = prompt('escolha um numero!');
+while (numero >= 0) {
+    console.log(numero);
+    numero--; }?*/
+
+    /*let limite = prompt('escolha um numero!');
+    let contador = 0;
+    while (contador <= limite) {
+        console.log(contador);
+        contador++;
+    }*/
+
+        let numero = prompt('escolha um numero!');
+        while (numero >= 0) {    
+            alert(numero);
+            numero--;
+        }
+        alert('fim!');
